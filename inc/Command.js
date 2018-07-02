@@ -10,6 +10,7 @@ function Command (opts) {
   this.name = opts.name || basename(__filename, '.js')
   this.description = opts.description || 'Not defined'
   this.requireSudo = opts.requireSudo || false
+  this.isRoot = () => process.getuid() === 0
 
   /*
     Entry point for Command instance. Needs to be modified!
