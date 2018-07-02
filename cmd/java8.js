@@ -37,7 +37,7 @@ module.exports.main = function (args, cb) {
     },
     {
       title: 'Installing java8 package',
-      task: () => execa('apt-get', ['-y', 'install'])
+      task: () => execa('apt-get', ['-y', 'install', 'oracle-java8-installer'])
     }
   ]).run()
 
