@@ -16,7 +16,7 @@ module.exports.main = function (args, cb) {
   }
 
   /*
-    Source: https://launchpad.net/~wireshark-dev/+archive/ubuntu/stable
+    Source: https://asciinema.org/docs/installation
     Commands:
       sudo apt-add-repository ppa:zanchey/asciinema
       sudo apt-get update
