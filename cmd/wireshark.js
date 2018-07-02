@@ -21,6 +21,7 @@ module.exports.main = function (args, cb) {
       sudo add-apt-repository ppa:wireshark-dev/stable
       sudo apt-get update
       sudo apt-get install wireshark
+      sudo usermod -a -G wireshark $USER
   */
 
   const execa = require('execa')
@@ -38,6 +39,10 @@ module.exports.main = function (args, cb) {
     {
       title: 'Installing package',
       task: () => execa('apt-get', ['-y', 'install', 'wireshark'])
+    },
+    {
+      title: 'Adding group wireshark to user ' + process.env.SUDO_USER,
+      task: () => execa('usermod', ['-a', '-G', 'wireshark', process.env.SUDO_USER])
     }
   ]).run()
 
