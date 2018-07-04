@@ -15,9 +15,12 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "execa": "^0.10.0",
+    "got": "^8.3.1",
     "listr": "^0.14.1",
     "minimist": "^1.2.0",
-    "ora": "^2.1.0"
+    "ora": "^2.1.0",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.2"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0"
