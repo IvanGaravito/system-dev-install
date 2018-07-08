@@ -23,7 +23,6 @@ module.exports.main = function (args, cb) {
   */
 
   const fs = require('fs')
-  const {join} = require('path')
   const execa = require('execa')
   const Listr = require('listr')
   const semver = require('semver')

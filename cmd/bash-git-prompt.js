@@ -23,7 +23,6 @@ module.exports.main = function (args, cb) {
   const fs = require('fs')
   const os = require('os')
   const {promisify} = require('util')
-  const {join} = require('path')
   const execa = require('execa')
   const Listr = require('listr')
   const shell = require('shelljs')
