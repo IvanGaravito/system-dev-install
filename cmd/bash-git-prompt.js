@@ -9,7 +9,7 @@ module.exports = new Command({
 
 module.exports.main = function (args, cb) {
   // Needs be run as root
-  if (!this.isRoot() && exports.requireSudo) {
+  if (module.exports.requireSudo && !this.isRoot()) {
     let err = new Error('Need root permissions')
     err.exitStatus = 3
     return cb(err)
