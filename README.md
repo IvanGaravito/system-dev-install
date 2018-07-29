@@ -2,7 +2,6 @@
 
 [![NPM pkg](https://img.shields.io/npm/v/systeminstall.svg)](https://www.npmjs.com/package/systeminstall)
 [![NPM dm](https://img.shields.io/npm/dm/systeminstall.svg)](https://www.npmjs.com/package/systeminstall)
-[![Gratipay](https://img.shields.io/gratipay/IvanGaravito.svg)](https://gratipay.com/IvanGaravito)
 
 Tool for configure, install apps and utilities after a system reinstall
 
