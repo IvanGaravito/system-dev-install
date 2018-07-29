@@ -2,6 +2,9 @@
 
 [![NPM pkg](https://img.shields.io/npm/v/systeminstall.svg)](https://www.npmjs.com/package/systeminstall)
 [![NPM dm](https://img.shields.io/npm/dm/systeminstall.svg)](https://www.npmjs.com/package/systeminstall)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Dependency Status](https://david-dm.org/IvanGaravito/systeminstall.svg)](https://david-dm.org/IvanGaravito/systeminstall)
+[![devDependency Status](https://david-dm.org/IvanGaravito/systeminstall/dev-status.svg)](https://david-dm.org/IvanGaravito/systeminstall#info=devDependencies)
 
 Tool for configure, install apps and utilities after a system reinstall
 
