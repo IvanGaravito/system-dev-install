@@ -1,27 +1,27 @@
 {
-  "name": "system-install",
+  "name": "systeminstall",
   "version": "1.0.0",
   "description": "Tool for configure, install apps and utilities after a system reinstall",
   "main": "index.js",
   "bin": {
-    "system-install": "bin/system-install"
+    "systeminstall": "bin/systeminstall"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IvanGaravito/system-install.git"
+    "url": "https://github.com/IvanGaravito/systeminstall.git"
   },
   "keywords": [
-    "system-install"
+    "systeminstall"
   ],
   "author": "Ivan Garavito <ivangaravito@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IvanGaravito/system-install/issues"
+    "url": "https://github.com/IvanGaravito/systeminstall/issues"
   },
-  "homepage": "https://github.com/IvanGaravito/system-install",
+  "homepage": "https://github.com/IvanGaravito/systeminstall",
   "dependencies": {
     "chalk": "^2.4.1",
     "execa": "^0.10.0",
