@@ -1,10 +1,10 @@
-# systeminstall
+# system-dev-install
 
-[![NPM pkg](https://img.shields.io/npm/v/systeminstall.svg)](https://www.npmjs.com/package/systeminstall)
-[![NPM dm](https://img.shields.io/npm/dm/systeminstall.svg)](https://www.npmjs.com/package/systeminstall)
+[![NPM pkg](https://img.shields.io/npm/v/system-dev-install.svg)](https://www.npmjs.com/package/system-dev-install)
+[![NPM dm](https://img.shields.io/npm/dm/system-dev-install.svg)](https://www.npmjs.com/package/system-dev-install)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Dependency Status](https://david-dm.org/IvanGaravito/systeminstall.svg)](https://david-dm.org/IvanGaravito/systeminstall)
-[![devDependency Status](https://david-dm.org/IvanGaravito/systeminstall/dev-status.svg)](https://david-dm.org/IvanGaravito/systeminstall#info=devDependencies)
+[![Dependency Status](https://david-dm.org/IvanGaravito/system-dev-install.svg)](https://david-dm.org/IvanGaravito/system-dev-install)
+[![devDependency Status](https://david-dm.org/IvanGaravito/system-dev-install/dev-status.svg)](https://david-dm.org/IvanGaravito/system-dev-install#info=devDependencies)
 
 Tool for configure, install apps and utilities after a system reinstall
 
@@ -16,19 +16,19 @@ Before anything, you need to install:
 
 Then, just use `npm install` to get it ready:
 ```sh
-$ sudo npm install -g systeminstall
+$ sudo npm install -g system-dev-install
 ```
 
 ## Usage
 
-Calling `systeminstall` from command line outputs the general help:
+Calling `system-dev-install` from command line outputs the general help:
 ```sh
-$ systeminstall
-systeminstall - Tool for configure, install apps and utilities after a system reinstall
+$ system-dev-install
+system-dev-install - Tool for configure, install apps and utilities after a system reinstall
 
 USAGE
 
-	systeminstall <command> [options]
+	system-dev-install <command> [options]
 
 COMMANDS
 
@@ -48,6 +48,6 @@ GLOBAL OPTIONS
 --version, -v  Show version and exit
 ```
 
-As the previous output example of `systeminstall`, it has many commands which allows you to configure or install or update apps and tools.
+As the previous output example of `system-dev-install`, it has many commands which allows you to configure or install or update apps and tools.
 
-Note that the first column, `Sudo`, has the values `✔` or `✖`, for meaning which commands require to call `sudo systeminstall <command>` or not. 
+Note that the first column, `Sudo`, has the values `✔` or `✖`, for meaning which commands require to call `sudo system-dev-install <command>` or not. 

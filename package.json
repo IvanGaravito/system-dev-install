@@ -1,27 +1,27 @@
 {
-  "name": "systeminstall",
+  "name": "system-dev-install",
   "version": "1.0.0",
   "description": "Tool for configure, install apps and utilities after a system reinstall",
   "main": "index.js",
   "bin": {
-    "systeminstall": "bin/systeminstall"
+    "system-dev-install": "bin/system-dev-install"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IvanGaravito/systeminstall.git"
+    "url": "https://github.com/IvanGaravito/system-dev-install.git"
   },
   "keywords": [
-    "systeminstall"
+    "system-dev-install"
   ],
   "author": "Ivan Garavito <ivangaravito@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IvanGaravito/systeminstall/issues"
+    "url": "https://github.com/IvanGaravito/system-dev-install/issues"
   },
-  "homepage": "https://github.com/IvanGaravito/systeminstall",
+  "homepage": "https://github.com/IvanGaravito/system-dev-install",
   "dependencies": {
     "chalk": "^2.4.1",
     "execa": "^0.10.0",
